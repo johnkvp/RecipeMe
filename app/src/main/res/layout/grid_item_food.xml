@@ -1,0 +1,9 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Include the food element layout -->
+    <include layout="@layout/food_element"
+        android:id="@+id/food_element"/>
+
+</RelativeLayout>
